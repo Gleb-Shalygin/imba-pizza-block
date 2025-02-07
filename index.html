@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="imba-pizza__main">
+<!--    <div class="imba-pizza__main">-->
         <img class="imba-pizza__pizza" src="pizza.png" alt="">
         <img class="imba-pizza__cheese" src="cheese.png" alt="">
         <div class="imba-pizza__left-info">
@@ -36,7 +36,7 @@
             </div>
         </div>
         <div class="imba-pizza__bg"></div>
-    </div>
+<!--    </div>-->
 </body>
 <style>
     /* Reset and base styles  */
@@ -143,7 +143,7 @@
             width: 100%;
             left: auto;
             top: auto;
-            height: auto;
+            height: 100vh;
         }
     }
     .imba-pizza__main {
@@ -247,10 +247,10 @@
 
         @media (max-width: 960px) {
             background-size: cover;
-            background-repeat: space;
+            background-repeat: no-repeat;
             width: 100%;
-            background-position-x: 57%;
-            background-position-y: bottom;
+            /*background-position-x: 57%;*/
+            /*background-position-y: bottom;*/
             background-image: url('bg-mobile.png');
         }
     }
