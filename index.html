@@ -265,8 +265,10 @@
         height: 100vh;
 
         @media (max-width: 960px) {
-            background-size: cover;
-            background-repeat: space;
+            height: 100%;
+            background-size: cover; /* Масштабирует изображение, чтобы покрыть весь блок */
+            background-position: center; /* Устанавливает изображение по центру */
+            background-repeat: no-repeat;
             width: 100%;
             background-position-x: 57%;
             background-position-y: bottom;
