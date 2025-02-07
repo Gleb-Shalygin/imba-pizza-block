@@ -41,9 +41,8 @@
 </body>
 <style>
     html, body {
-        height: 100%; /* Обеспечиваем надежный основание для наших потомков – элементов div */
+        height: 100%;
     }
-    /* Reset and base styles  */
     * {
         padding: 0px;
         margin: 0px;
@@ -56,8 +55,6 @@
         box-sizing: border-box;
     }
 
-    /* Links */
-
     a, a:link, a:visited  {
         text-decoration: none;
     }
@@ -65,8 +62,6 @@
     a:hover  {
         text-decoration: none;
     }
-
-    /* Common */
 
     aside, nav, footer, header, section, main {
         display: block;
@@ -93,8 +88,6 @@
     address {
         font-style: normal;
     }
-
-    /* Form */
 
     input, textarea, button, select {
         font-family: inherit;
@@ -155,23 +148,7 @@
     .imba-pizza__main {
         position: relative;
         height: 100%;
-        /*display: flex;*/
-        /*flex-direction: column;*/
-        /*height: 100vh; !* Устанавливает высоту блока в 100% от высоты видимой области *!*/
-        /*overflow-y: hidden; !* Скрывает вертикальный скролл *!*/
-        /*overflow-x: hidden; !* Скрывает горизонтальный скролл, если нужно *!*/
-        /*box-sizing: border-box; !* Учитывает отступы и границы в расчете высоты *!*/
         background-color: black;
-        /*!*height: 100%;*!*/
-        /*!*position: relative;*!*/
-
-        /*@media (max-width: 960px) {*/
-        /*    display: flex;*/
-        /*    flex-direction: column;*/
-        /*    height: 100vh;*/
-        /*    position: static;*/
-        /*    overflow-y: hidden;*/
-        /*}*/
     }
     .imba-pizza__pizza {
         z-index: 4;
@@ -194,20 +171,8 @@
         }
     }
 
-    /*.imba-pizza__pizza,*/
-    /*.imba-pizza__cheese,*/
-    /*!*.imba-pizza__left-info,*!*/
-    /*.imba-pizza__gradient,*/
-    /*.imba-pizza__bg,*/
-    /*.imba-pizza__company {*/
-    /*    @media (max-width: 960px) {*/
-    /*        position: static;*/
-    /*    }*/
-    /*}*/
-
     .imba-pizza__cheese,
-    .imba-pizza__pizza,
-    .imba-pizza__gradient {
+    .imba-pizza__pizza {
         @media (max-width: 960px) {
             display: none;
         }
@@ -242,16 +207,6 @@
             font-size: 35px;
         }
     }
-    .imba-pizza__gradient {
-        z-index: 2;
-        width: 1200px;
-        position: absolute;
-        height: 100vh;
-
-        @media (max-width: 1600px) {
-            width: 950px;
-        }
-    }
     .imba-pizza__bg {
         z-index: 1;
         position: absolute;
@@ -265,8 +220,8 @@
 
         @media (max-width: 960px) {
             height: 100%;
-            background-size: cover; /* Масштабирует изображение, чтобы покрыть весь блок */
-            background-position: center; /* Устанавливает изображение по центру */
+            background-size: cover;
+            background-position: center;
             background-repeat: no-repeat;
             width: 100%;
             background-position-x: 57%;
