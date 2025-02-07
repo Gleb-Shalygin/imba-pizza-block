@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4396aff-6b6e-4022-91e6-956bbbb623da" name="Changes" comment="да нее...">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +74,7 @@
       <workItem from="1738740111745" duration="6264000" />
       <workItem from="1738812430423" duration="9195000" />
       <workItem from="1738827415211" duration="11416000" />
-      <workItem from="1738901631146" duration="8458000" />
+      <workItem from="1738901631146" duration="8831000" />
     </task>
     <task id="LOCAL-00001" summary="Новая заглушочка">
       <option name="closed" value="true" />
@@ -251,7 +252,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738911409217</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="да нее...">
+      <option name="closed" value="true" />
+      <created>1738911486063</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1738911486063</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
