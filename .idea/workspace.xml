@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4396aff-6b6e-4022-91e6-956bbbb623da" name="Changes" comment="ПОБЕДАААА!!!!">
+    <list default="true" id="f4396aff-6b6e-4022-91e6-956bbbb623da" name="Changes" comment="почти победа">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -75,7 +75,7 @@
       <workItem from="1738812430423" duration="9195000" />
       <workItem from="1738827415211" duration="11416000" />
       <workItem from="1738901631146" duration="9211000" />
-      <workItem from="1738924946416" duration="5899000" />
+      <workItem from="1738924946416" duration="9492000" />
     </task>
     <task id="LOCAL-00001" summary="Новая заглушочка">
       <option name="closed" value="true" />
@@ -437,7 +437,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738919354794</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="почти победа">
+      <option name="closed" value="true" />
+      <created>1738932176329</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1738932176329</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,6 +472,7 @@
     <MESSAGE value="/" />
     <MESSAGE value="-_-" />
     <MESSAGE value="ПОБЕДАААА!!!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="ПОБЕДАААА!!!!" />
+    <MESSAGE value="почти победа" />
+    <option name="LAST_COMMIT_MESSAGE" value="почти победа" />
   </component>
 </project>
