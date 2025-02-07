@@ -74,7 +74,7 @@
       <workItem from="1738740111745" duration="6264000" />
       <workItem from="1738812430423" duration="9195000" />
       <workItem from="1738827415211" duration="11416000" />
-      <workItem from="1738901631146" duration="9211000" />
+      <workItem from="1738901631146" duration="9346000" />
     </task>
     <task id="LOCAL-00001" summary="Новая заглушочка">
       <option name="closed" value="true" />
@@ -268,7 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738911857986</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="да нее...">
+      <option name="closed" value="true" />
+      <created>1738912236421</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1738912236421</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

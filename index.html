@@ -11,9 +11,9 @@
 </head>
 <body>
     <div class="imba-pizza__main">
-<!--        <img class="imba-pizza__pizza" src="pizza.png" alt="">-->
-<!--        <img class="imba-pizza__cheese" src="cheese.png" alt="">-->
-<!--        <div class="imba-pizza__left-info">-->
+        <img class="imba-pizza__pizza" src="pizza.png" alt="">
+        <img class="imba-pizza__cheese" src="cheese.png" alt="">
+        <div class="imba-pizza__left-info">
             <div class="imba-pizza__logo">
                 <svg width="499" height="232" viewBox="0 0 499 232" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M476.904 184.155H476.662H476.823L432.943 39.552L366.278 35.3653L356.938 55.0912L341.318 23.9323L320.626 26.1867L316.6 30.3734L317.003 25.9452L271.674 22L271.352 24.8985L269.017 24.0934L223.526 25.3816V26.0257L212.818 25.3816L208.953 30.1319L209.275 25.14L187.376 23.8518V23.5298L141.966 28.4411L143.495 42.37L105.896 44.3024L90.0343 68.8591L88.8266 45.1075L31.4201 48.006L22 100.179L32.7889 124.816L35.6069 180.129H35.6874L47.1203 206.216L93.8184 203.881L107.828 182.223L108.875 203.076L151.788 200.902L151.869 202.271L201.788 200.419L201.224 184.316L216.602 183.752L217.166 199.855L246.956 198.728V198.889L298.002 200.338C298.726 200.338 299.531 200.338 300.256 200.338C303.074 200.338 305.812 200.177 308.388 199.855L308.227 200.177L371.43 204.122L377.227 189.791L397.758 191.079L401.543 206.055L464.827 210L464.746 209.678L476.904 184.155Z" fill="white" stroke="white" stroke-width="42.7273" stroke-linejoin="round"/>
@@ -35,9 +35,9 @@
                 <div>644099 г.Омск, Набережная Тухачевского, д.16, оф.2П.</div>
                 <div>ИНН 5503197313, ОГРН 1215500015268</div>
             </div>
-<!--        </div>-->
+        </div>
 <!--&lt;!&ndash;        <div class="imba-pizza__gradient"></div>&ndash;&gt;-->
-<!--        <div class="imba-pizza__bg"></div>-->
+        <div class="imba-pizza__bg"></div>
     </div>
 </body>
 <style>
@@ -142,6 +142,8 @@
         height: 100vh;
 
         @media (max-width: 960px) {
+            display: flex;
+            flex-direction: column;
             width: 100%;
             left: auto;
             top: auto;
@@ -150,8 +152,8 @@
     }
     .imba-pizza__main {
         background-color: black;
-        /*height: 100%;*/
-        /*position: relative;*/
+        height: 100%;
+        position: relative;
 
         @media (max-width: 960px) {
             display: flex;
