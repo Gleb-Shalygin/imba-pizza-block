@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
     <title>ИмбА пицца</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -134,58 +136,17 @@
     body {
         margin: 0;
     }
-
-
-
-    .imba-pizza__main,
-    .imba-pizza__left-info,
-    .imba-pizza__bg {
-        min-height: 100vh;
-        height: auto; /* Добавьте это, чтобы высота адаптировалась под содержимое */
-    }
-
-    @media (max-width: 960px) {
-        .imba-pizza__pizza {
-            top: 0; /* или другое значение, которое не выходит за пределы экрана */
-        }
-    }
-
-    @media (max-width: 960px) {
-        .imba-pizza__title {
-            margin: 20px 0 0 10px; /* Уменьшенные отступы для мобильных устройств */
-        }
-        .imba-pizza__desc {
-            margin: 20px 0 0 10px; /* Уменьшенные отступы для мобильных устройств */
-        }
-    }
-
-    @media (max-width: 960px) {
-        .imba-pizza__bg {
-            background-size: cover; /* Убедитесь, что изображение покрывает весь экран */
-        }
-    }
-
-    @media (max-width: 960px) {
-        .imba-pizza__company {
-            bottom: 20px; /* Уменьшите отступ для мобильных устройств */
-        }
-    }
-
-    body, html {
-        overflow-y: hidden;
-    }
-
     .imba-pizza__left-info {
         position: absolute;
         z-index: 3;
         left: 72px;
-        /*height: 100vh;*/
+        height: 100vh;
 
         @media (max-width: 960px) {
             width: 100%;
             left: auto;
             top: auto;
-            /*height: 100vh;*/
+            height: 100vh;
         }
     }
     .imba-pizza__main {
@@ -194,7 +155,7 @@
 
         @media (max-width: 960px) {
             position: static;
-            /*height: 100vh;*/
+            height: 100vh;
         }
     }
     .imba-pizza__pizza {
@@ -262,7 +223,7 @@
         text-decoration-skip-ink: none;
 
         @media (max-width: 960px) {
-            /*margin: 0 0 0 21px;*/
+            margin: 0 0 0 21px;
             font-size: 35px;
         }
     }
@@ -285,7 +246,7 @@
         background-color: #000753;
         background-image: linear-gradient(90.01deg, #000753 40.89%, rgba(0, 7, 83, 0) 57%), url('bg.png');
         width: 100%;
-        /*height: 100vh;*/
+        height: 100vh;
 
         @media (max-width: 960px) {
             background-size: cover;
