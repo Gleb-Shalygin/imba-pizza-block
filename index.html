@@ -41,11 +41,6 @@
     </div>
 </body>
 <style>
-    body, html {
-        margin: 0;
-        padding: 0;
-        height: 100%;
-    }
     /* Reset and base styles  */
     * {
         padding: 0px;
@@ -156,6 +151,8 @@
         }
     }
     .imba-pizza__main {
+        display: flex;
+        flex-direction: column;
         height: 100vh; /* Устанавливает высоту блока в 100% от высоты видимой области */
         overflow-y: hidden; /* Скрывает вертикальный скролл */
         overflow-x: hidden; /* Скрывает горизонтальный скролл, если нужно */
