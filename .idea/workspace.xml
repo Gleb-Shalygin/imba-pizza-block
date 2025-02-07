@@ -25,6 +25,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/usr/bin/php" />
   <component name="ProjectColorInfo">{
@@ -74,7 +75,7 @@
       <workItem from="1738740111745" duration="6264000" />
       <workItem from="1738812430423" duration="9195000" />
       <workItem from="1738827415211" duration="11416000" />
-      <workItem from="1738901631146" duration="9211000" />
+      <workItem from="1738901631146" duration="10476000" />
     </task>
     <task id="LOCAL-00001" summary="Новая заглушочка">
       <option name="closed" value="true" />
@@ -268,11 +269,82 @@
       <option name="project" value="LOCAL" />
       <updated>1738911857986</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="да нее...">
+      <option name="closed" value="true" />
+      <created>1738912236421</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1738912236421</updated>
+    </task>
+    <task id="LOCAL-00026" summary="да нее...">
+      <option name="closed" value="true" />
+      <created>1738912371950</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1738912371950</updated>
+    </task>
+    <task id="LOCAL-00027" summary="да нее...">
+      <option name="closed" value="true" />
+      <created>1738912910453</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1738912910453</updated>
+    </task>
+    <task id="LOCAL-00028" summary="да нее...">
+      <option name="closed" value="true" />
+      <created>1738913101234</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1738913101234</updated>
+    </task>
+    <task id="LOCAL-00029" summary="да нее...">
+      <option name="closed" value="true" />
+      <created>1738913230591</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1738913230591</updated>
+    </task>
+    <task id="LOCAL-00030" summary="да нее...">
+      <option name="closed" value="true" />
+      <created>1738913310304</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1738913310304</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Новая заглушочка" />

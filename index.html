@@ -11,8 +11,8 @@
 </head>
 <body>
     <div class="imba-pizza__main">
-<!--        <img class="imba-pizza__pizza" src="pizza.png" alt="">-->
-<!--        <img class="imba-pizza__cheese" src="cheese.png" alt="">-->
+        <img class="imba-pizza__pizza" src="pizza.png" alt="">
+        <img class="imba-pizza__cheese" src="cheese.png" alt="">
 <!--        <div class="imba-pizza__left-info">-->
             <div class="imba-pizza__logo">
                 <svg width="499" height="232" viewBox="0 0 499 232" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -24,17 +24,17 @@
                     <path d="M338.013 29.969L325.131 31.4183L315.47 69.3403L327.627 67.9716L328.674 62.9797L341.315 61.611L343.408 66.2808L355.566 64.9121L338.013 29.969ZM330.526 53.9622L332.216 45.9108C332.458 44.1395 332.619 42.5292 332.7 41.0799C333.102 42.6902 333.585 44.1395 334.229 45.6692L337.611 53.157L330.526 53.9622ZM264.343 55.975L263.619 29.8885L251.542 30.2106L252.266 56.2971L242.282 56.6191L241.477 30.5326L229.4 30.8547L230.447 67.4885L258.385 66.6834L258.546 73.7686L269.255 73.4465L268.772 55.7335L264.343 55.975ZM202.025 47.6821C202.348 45.9108 202.589 43.8979 202.67 41.402L203.314 30.4521L191.237 29.7275L189.063 66.3613L199.288 66.9249L212.734 50.5001C212.412 52.2714 212.17 54.2842 212.09 56.6191L211.446 67.569L223.523 68.2936L225.697 31.6598L215.471 31.0962L202.025 47.6821ZM148.242 33.4311L152.187 69.9039L164.184 68.6157L161.366 42.6902L171.591 41.563L174.409 67.4885L186.406 66.2003L182.38 29.7275L148.242 33.4311ZM310.88 31.0962L298.803 30.0495L296.549 56.0555L286.565 55.1699L288.819 29.1639L276.742 28.1172L273.602 64.6705L301.46 67.0859L300.816 74.1712L311.524 75.0568L313.054 57.4243L308.626 57.1022L310.88 31.0962Z" fill="white"/>
                 </svg>
             </div>
-            <div class="imba-pizza__title">
-                Пицца?<br />Не-а, это <span style="color: rgba(0, 240, 139, 1)">ИМБА!</span>
-            </div>
-            <div class="imba-pizza__desc">
-                CАЙТ НАХОДИТСЯ<br/>В РАЗРАБОТКЕ
-            </div>
-            <div class="imba-pizza__company">
-                <div>© 2025 ООО «АЙТИ-ФУД»</div>
-                <div>644099 г.Омск, Набережная Тухачевского, д.16, оф.2П.</div>
-                <div>ИНН 5503197313, ОГРН 1215500015268</div>
-            </div>
+<!--            <div class="imba-pizza__title">-->
+<!--                Пицца?<br />Не-а, это <span style="color: rgba(0, 240, 139, 1)">ИМБА!</span>-->
+<!--            </div>-->
+<!--            <div class="imba-pizza__desc">-->
+<!--                CАЙТ НАХОДИТСЯ<br/>В РАЗРАБОТКЕ-->
+<!--            </div>-->
+<!--            <div class="imba-pizza__company">-->
+<!--                <div>© 2025 ООО «АЙТИ-ФУД»</div>-->
+<!--                <div>644099 г.Омск, Набережная Тухачевского, д.16, оф.2П.</div>-->
+<!--                <div>ИНН 5503197313, ОГРН 1215500015268</div>-->
+<!--            </div>-->
 <!--        </div>-->
 <!--&lt;!&ndash;        <div class="imba-pizza__gradient"></div>&ndash;&gt;-->
 <!--        <div class="imba-pizza__bg"></div>-->
@@ -142,6 +142,8 @@
         height: 100vh;
 
         @media (max-width: 960px) {
+            display: flex;
+            flex-direction: column;
             width: 100%;
             left: auto;
             top: auto;
@@ -150,8 +152,8 @@
     }
     .imba-pizza__main {
         background-color: black;
-        /*height: 100%;*/
-        /*position: relative;*/
+        height: 100%;
+        position: relative;
 
         @media (max-width: 960px) {
             display: flex;
