@@ -156,17 +156,21 @@
         }
     }
     .imba-pizza__main {
+        height: 100vh; /* Устанавливает высоту блока в 100% от высоты видимой области */
+        overflow-y: hidden; /* Скрывает вертикальный скролл */
+        overflow-x: hidden; /* Скрывает горизонтальный скролл, если нужно */
+        box-sizing: border-box; /* Учитывает отступы и границы в расчете высоты */
         background-color: black;
-        /*height: 100%;*/
-        /*position: relative;*/
+        /*!*height: 100%;*!*/
+        /*!*position: relative;*!*/
 
-        @media (max-width: 960px) {
-            display: flex;
-            flex-direction: column;
-            height: 100vh;
-            position: static;
-            overflow-y: hidden;
-        }
+        /*@media (max-width: 960px) {*/
+        /*    display: flex;*/
+        /*    flex-direction: column;*/
+        /*    height: 100vh;*/
+        /*    position: static;*/
+        /*    overflow-y: hidden;*/
+        /*}*/
     }
     .imba-pizza__pizza {
         z-index: 4;
