@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4396aff-6b6e-4022-91e6-956bbbb623da" name="Changes" comment="Добавил фавикон">
-      <change afterPath="$PROJECT_DIR$/bg.jpg" afterDir="false" />
+    <list default="true" id="f4396aff-6b6e-4022-91e6-956bbbb623da" name="Changes" comment="Поменял бэкграунд">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bg.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +76,9 @@
       <workItem from="1738827415211" duration="11416000" />
       <workItem from="1738901631146" duration="9211000" />
       <workItem from="1738924946416" duration="10359000" />
-      <workItem from="1739160182178" duration="2668000" />
+      <workItem from="1739160182178" duration="4952000" />
+      <workItem from="1739246436432" duration="4000" />
+      <workItem from="1739333633913" duration="161000" />
     </task>
     <task id="LOCAL-00001" summary="Новая заглушочка">
       <option name="closed" value="true" />
@@ -464,7 +464,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739177035868</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Поменял бэкграунд">
+      <option name="closed" value="true" />
+      <created>1739178706480</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1739178706480</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -493,6 +501,7 @@
     <MESSAGE value="ПОБЕДАААА!!!!" />
     <MESSAGE value="почти победа" />
     <MESSAGE value="Добавил фавикон" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил фавикон" />
+    <MESSAGE value="Поменял бэкграунд" />
+    <option name="LAST_COMMIT_MESSAGE" value="Поменял бэкграунд" />
   </component>
 </project>
